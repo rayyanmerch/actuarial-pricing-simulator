@@ -203,7 +203,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📞 Contact
 
-**Your Name** - [your.email@example.com](mailto:your.email@example.com)
+**Rayyan Merchant** - [rayyanmerch@gmail.com](mailto:rayyanmerch@gmail.com)
 
 Project Link: [https://github.com/yourusername/actuarial-pricing-simulator](https://github.com/yourusername/actuarial-pricing-simulator)
 
