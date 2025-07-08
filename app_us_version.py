@@ -9,7 +9,6 @@ import numpy as np
 import plotly.graph_objects as go
 import plotly.express as px
 from pathlib import Path
-import joblib
 
 # Configure page
 st.set_page_config(
@@ -50,11 +49,9 @@ VEHICLE_MAKES = {
 @st.cache_resource
 def load_base_models():
     """Load the base European models for calibration"""
-    try:
-        models = joblib.load("data/trained_models_simplified.pkl")
-        return models
-    except FileNotFoundError:
-        return None
+    # Instead of loading pickle files, return None to use default values
+    # This avoids the sklearn version compatibility issue
+    return None
 
 class USPricingSimulator:
     def __init__(self, base_models=None):
